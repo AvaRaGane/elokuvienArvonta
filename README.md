@@ -9,5 +9,7 @@ Sivut on tehty viihdekäyttöön. Niillä voit arpoa seuraavan elokuvan katsonta
 
 Aluksi sinun tulee asettaa API avaimesi kummankin .js tiedoston alkuun (merkitty 'TÄHÄN API') esim. 'Bearer [merkkijono].[merkkijono]'
 
+
+
 Lähteinä olen käyttänyt luentomateriaaleja sekä [TMDB:n ohjeita](https://developer.themoviedb.org/docs/getting-started)
 
