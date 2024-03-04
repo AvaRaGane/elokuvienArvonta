@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Kuvavisa</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="me">
+        <article>
+            <h1>Kuvavisa</h1>
+            <div id="aloitusTeksti">
+                <h3>Arvaa kuvasta, millä vuosikymmenellä elokuva on valmistunut.</h3>
+                <h3>Suomi-visassa arvotaan vähintään 5.0 arvosanan saanut kotimainen elokuva.</h3>
+                <h3>Englanninkielisessä versiossa voi valita myös genren.</h3>
+            </div>
+            <div id="nimiInput">
+                <label for="nimi">Anna nimesi:</label>
+                <input type="text" name="nimi" id="nimi" value="Nimi">
+                <span></span>
+                <label for="language">
+                    <h3>Kieli</h3>
+                </label>
+                <select name="language" id="language">
+                    <option value="fi">Suomi</option>
+                    <option value="en">Englanti</option>
+                </select>
+                <div id="genreInput">
+                    <h3>Genre?</h3>
+                    <select name="genre" id="genre">
+                        <option value="28">Action</option>
+                        <option value="12">Adventure</option>
+                        <option value="16">Animation</option>
+                        <option value="35">Comedy</option>
+                        <option value="80">Crime</option>
+                        <option value="99">Documentary</option>
+                        <option value="18">Drama</option>
+                        <option value="10751">Family</option>
+                        <option value="14">Fantasy</option>
+                        <option value="36">History</option>
+                        <option value="27">Horror</option>
+                        <option value="10402">Music</option>
+                        <option value="9648">Mystery</option>
+                        <option value="10749">Romance</option>
+                        <option value="878">Science Fiction</option>
+                        <option value="10770">TV Movie</option>
+                        <option value="53">Thriller</option>
+                        <option value="10752">War</option>
+                        <option value="37">Western</option>
+                    </select>
+                </div>
+                <input type="image" src="../images/button-188_256.gif" height="40em" name="lähetäNimi" id="lähetäNimi">
+            </div>
+            <div id="pisteOutput">
+                <p>Tämänhetkiset pisteesi: <output id="pisteet"></output></p>
+            </div>
+        </article>
+        <article>
+            <div id="kuvaInput">
+                <img id=kuva src="" alt="" width="30%" height="30%">
+            </div>
+            <div id="vastausInput">
+                <label for="vuosikymmen">Anna arvauksesi:</label><br>
+                <select name="vuosikymmen" id="vuosikymmen">
+                    <option value="1960">1960</option>
+                    <option value="1970">1970</option>
+                    <option value="1980">1980</option>
+                    <option value="1990">1990</option>
+                    <option value="2000">2000</option>
+                    <option value="2010">2010</option>
+                    <option value="2020">2020</option>
+                </select>
+                <input type="image" src="../images/button-188_256.gif" height="40em" name="arvaa" id="arvaa"
+                    value="Arvaa"><br>
+            </div>
+        </article>
+    </div>
+    <script>
+        $("#header").load("common/header.html");
+    </script>
+    <script src="../code/js/kuvavisa.js"></script>
+</body>
+
+</html>
