@@ -7,4 +7,6 @@ Sivuilla on käytetty TMDB-tietokantaa/rajapintaa.
 
 Sivut on tehty viihdekäyttöön. Niillä voit arpoa seuraavan elokuvan katsontaan tai voit pelata visaa, jossa arvotaan elokuvan posteri ja sinun pitää arvata, miltä vuosikymmeneltä elokuva on.
 
+Aluksi sinun tulee asettaa API avaimesi kummankin .js tiedoston alkuun esim. 'Bearer [merkkijono].[merkkijono]'
 Lähteinä olen käyttänyt luentomateriaaleja sekä [TMDB:n ohjeita](https://developer.themoviedb.org/docs/getting-started)
+
